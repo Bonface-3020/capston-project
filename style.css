@@ -58,27 +58,32 @@ header {
     margin: 0; 
     padding: 0;
 }
+
 .carousel-inner img {
     height: 500px;
     object-fit: cover;
 }
+
 .slider-container {
     width: 80%;
     margin: 0 auto;
     border-radius: 15px;
     border: 5px #FF914D;
 }
-.carousel-item img{
+
+.carousel-item img {
     border-radius: 20px;
 }
-#about{
+
+#about {
     align-items: center;
     text-align: center;
     background-color: aliceblue;
     border-radius: 20px;
     padding-top: 10px;
 }
-#cards-section {
+
+#gallery {
     background-color: #64a2df;
     padding: 2rem 0;
 }
@@ -114,16 +119,6 @@ header {
     color: #6c757d;
 }
 
-.btn-primary {
-    background-color: #007bff;
-    border: none;
-    transition: background-color 0.3s ease;
-}
-
-#button:hover {
-    background-color: yellow;
-}
-/* Contact Section */
 #contact-section {
     background-color: #f1f1f1;
     padding: 2rem 0;
@@ -164,7 +159,6 @@ header {
     text-decoration: underline;
 }
 
-/* Footer */
 footer {
     background-color: #343a40;
     color: #ffffff;
@@ -175,4 +169,8 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
